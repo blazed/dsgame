@@ -1,0 +1,23 @@
+{
+    "name": "ds-game/core",
+    "description": "",
+    "authors": [
+        {
+            "name": "blazed",
+            "email": "blazed@darkstar.se"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "DsGame": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
